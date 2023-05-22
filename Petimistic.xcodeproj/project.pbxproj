@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CBDE01C2A1B655800162493 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE01B2A1B655800162493 /* FeedViewController.swift */; };
+		2CBDE01E2A1B656F00162493 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE01D2A1B656F00162493 /* UploadViewController.swift */; };
+		2CBDE0202A1B658700162493 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE01F2A1B658700162493 /* SettingsViewController.swift */; };
+		2CBDE0222A1BBDDF00162493 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE0212A1BBDDF00162493 /* FeedCell.swift */; };
+		2CBDE0242A1BF11F00162493 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE0232A1BF11F00162493 /* Post.swift */; };
 		2CD79F002A1B4880002A05A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD79EFF2A1B4880002A05A2 /* AppDelegate.swift */; };
 		2CD79F022A1B4880002A05A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD79F012A1B4880002A05A2 /* SceneDelegate.swift */; };
 		2CD79F042A1B4880002A05A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD79F032A1B4880002A05A2 /* ViewController.swift */; };
 		2CD79F072A1B4880002A05A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD79F052A1B4880002A05A2 /* Main.storyboard */; };
 		2CD79F092A1B4880002A05A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD79F082A1B4880002A05A2 /* Assets.xcassets */; };
 		2CD79F0C2A1B4880002A05A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD79F0A2A1B4880002A05A2 /* LaunchScreen.storyboard */; };
+		2CD79F142A1B4A96002A05A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CD79F132A1B4A96002A05A2 /* GoogleService-Info.plist */; };
+		48923E75470D6B0FFBF07F45 /* Pods_Petimistic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867475DF161D068428764740 /* Pods_Petimistic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CBDE01B2A1B655800162493 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2CBDE01D2A1B656F00162493 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		2CBDE01F2A1B658700162493 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2CBDE0212A1BBDDF00162493 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		2CBDE0232A1BF11F00162493 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		2CD79EFC2A1B4880002A05A2 /* Petimistic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petimistic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD79EFF2A1B4880002A05A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD79F012A1B4880002A05A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,10 @@
 		2CD79F082A1B4880002A05A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CD79F0B2A1B4880002A05A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CD79F0D2A1B4880002A05A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD79F132A1B4A96002A05A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		867475DF161D068428764740 /* Pods_Petimistic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Petimistic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09027868D9BE344B332CB23 /* Pods-Petimistic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petimistic.debug.xcconfig"; path = "Target Support Files/Pods-Petimistic/Pods-Petimistic.debug.xcconfig"; sourceTree = "<group>"; };
+		F0EE13751C7B5D9DB9571FA4 /* Pods-Petimistic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petimistic.release.xcconfig"; path = "Target Support Files/Pods-Petimistic/Pods-Petimistic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48923E75470D6B0FFBF07F45 /* Pods_Petimistic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CBDE0172A1B63A300162493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD79EFF2A1B4880002A05A2 /* AppDelegate.swift */,
+				2CD79F012A1B4880002A05A2 /* SceneDelegate.swift */,
+				2CD79F082A1B4880002A05A2 /* Assets.xcassets */,
+				2CD79F0A2A1B4880002A05A2 /* LaunchScreen.storyboard */,
+				2CD79F0D2A1B4880002A05A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CBDE0182A1B63BA00162493 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CD79F032A1B4880002A05A2 /* ViewController.swift */,
+				2CBDE01B2A1B655800162493 /* FeedViewController.swift */,
+				2CBDE01D2A1B656F00162493 /* UploadViewController.swift */,
+				2CBDE01F2A1B658700162493 /* SettingsViewController.swift */,
+				2CBDE0212A1BBDDF00162493 /* FeedCell.swift */,
+				2CBDE0232A1BF11F00162493 /* Post.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CBDE01A2A1B63C600162493 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CD79F052A1B4880002A05A2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2CD79EF32A1B4880002A05A2 = {
 			isa = PBXGroup;
 			children = (
 				2CD79EFE2A1B4880002A05A2 /* Petimistic */,
 				2CD79EFD2A1B4880002A05A2 /* Products */,
+				FF677011E4EEA1C444BE4872 /* Pods */,
+				31A896D14BBEC33091E2A7F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,29 @@
 		2CD79EFE2A1B4880002A05A2 /* Petimistic */ = {
 			isa = PBXGroup;
 			children = (
-				2CD79EFF2A1B4880002A05A2 /* AppDelegate.swift */,
-				2CD79F012A1B4880002A05A2 /* SceneDelegate.swift */,
-				2CD79F032A1B4880002A05A2 /* ViewController.swift */,
-				2CD79F052A1B4880002A05A2 /* Main.storyboard */,
-				2CD79F082A1B4880002A05A2 /* Assets.xcassets */,
-				2CD79F0A2A1B4880002A05A2 /* LaunchScreen.storyboard */,
-				2CD79F0D2A1B4880002A05A2 /* Info.plist */,
+				2CBDE01A2A1B63C600162493 /* View */,
+				2CBDE0182A1B63BA00162493 /* Controllers */,
+				2CBDE0172A1B63A300162493 /* Supporting Files */,
+				2CD79F132A1B4A96002A05A2 /* GoogleService-Info.plist */,
 			);
 			path = Petimistic;
+			sourceTree = "<group>";
+		};
+		31A896D14BBEC33091E2A7F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				867475DF161D068428764740 /* Pods_Petimistic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF677011E4EEA1C444BE4872 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F09027868D9BE344B332CB23 /* Pods-Petimistic.debug.xcconfig */,
+				F0EE13751C7B5D9DB9571FA4 /* Pods-Petimistic.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CD79F102A1B4880002A05A2 /* Build configuration list for PBXNativeTarget "Petimistic" */;
 			buildPhases = (
+				A681F19440698E8F03908E0D /* [CP] Check Pods Manifest.lock */,
 				2CD79EF82A1B4880002A05A2 /* Sources */,
 				2CD79EF92A1B4880002A05A2 /* Frameworks */,
 				2CD79EFA2A1B4880002A05A2 /* Resources */,
+				7346A61543E542A75D41DF81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD79F0C2A1B4880002A05A2 /* LaunchScreen.storyboard in Resources */,
+				2CD79F142A1B4A96002A05A2 /* GoogleService-Info.plist in Resources */,
 				2CD79F092A1B4880002A05A2 /* Assets.xcassets in Resources */,
 				2CD79F072A1B4880002A05A2 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +202,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7346A61543E542A75D41DF81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Petimistic/Pods-Petimistic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Petimistic/Pods-Petimistic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Petimistic/Pods-Petimistic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A681F19440698E8F03908E0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Petimistic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CD79EF82A1B4880002A05A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CBDE0222A1BBDDF00162493 /* FeedCell.swift in Sources */,
 				2CD79F042A1B4880002A05A2 /* ViewController.swift in Sources */,
+				2CBDE01E2A1B656F00162493 /* UploadViewController.swift in Sources */,
+				2CBDE0242A1BF11F00162493 /* Post.swift in Sources */,
 				2CD79F002A1B4880002A05A2 /* AppDelegate.swift in Sources */,
+				2CBDE01C2A1B655800162493 /* FeedViewController.swift in Sources */,
 				2CD79F022A1B4880002A05A2 /* SceneDelegate.swift in Sources */,
+				2CBDE0202A1B658700162493 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +398,7 @@
 		};
 		2CD79F112A1B4880002A05A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09027868D9BE344B332CB23 /* Pods-Petimistic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +427,7 @@
 		};
 		2CD79F122A1B4880002A05A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0EE13751C7B5D9DB9571FA4 /* Pods-Petimistic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
